@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TestMaker</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="todo">
+            <h1>Заполните форму</h1>
+            <form>
+                <label for="fname">Фамилия-Имя-Класс</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Всего заданий:</label><br>
+                <input type="number" id="lname" name="lname"><br>
+                <label for="kname">Всего правильно:</label><br>
+                <input type="number" id="kname" name="kname">
+            </form>
+            <h3 class="submit">ГОТОВ!</h3>
+        </div> 
+        
+        
+        <div class="card">
+            <div class="top">
+                <p>Результаты тестирования (<span class="name">name</span>)</p>
+            </div>
+            <div class="mid">
+                <table class="table">
+                    <tr>
+                        <td>Всего заданий в тесте:</td>
+                        <td class="sec one">0</td>
+                    </tr>
+                    <tr>
+                        <td>Всего заданий задано:</td>
+                        <td class="sec two">0</td>
+                    </tr>
+                    <tr>
+                        <td>Из них правильно:</td>
+                        <td class="sec tree">0</td>
+                    </tr>
+                    <tr>
+                        <td>Результативность:</td>
+                        <td class="sec four">0</td>
+                    </tr>
+                </table>
+                <div class="pols">  
+                    <div class="quest">
+                        <p>Вопросы:</p>
+                        <div id="my-pie-chart" class="pie"></div>
+                    </div>
+                    <div class="balls">
+                        <p>Баллы:</p>
+                        <div id="my-pie-chart" class="pie"></div>
+                    </div>
+                </div>
+                <p class="total">Набрано баллов:<span class="five">0</span> из <span class="six">0</span> возможных.<br>
+                Ваш результат:<span class="seven">0</span></p>
+            </div>
+        
+        <div class="bottom">
+            <p class="grade"><b>Ваша оценка:<span class="eight">0</span></b></p>
+            <div class="btn">
+                <p class="sbmt">✔ OK</p>
+            <div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>Всё сделано за 2 часа</p>
+        <p>by Timur Sitvaldyyev
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.top{
+    background-color: rgb(0, 120, 189);
+    color: white;
+    text-align: left;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    padding-left: 40%;
+}
+.mid{
+    position: relative;
+    border-bottom: solid grey 1px;
+}
+.table{
+    align-items: center;
+    text-align: right;
+    padding-left: 30%;
+    margin-bottom:30px;
+    padding-top: 8px;
+}
+.sec{
+    text-align: center;
+}
+.pols{
+    position: absolute;
+    right: 0;
+    top: -20%;
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+#my-pie-chart{
+    background: conic-gradient(rgb(1, 211, 1) 33.33%,red 0%);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: black solid 1px;
+    margin-top:-18px;
+}
+.total{
+    color: green;
+}
+.grade{
+    color: darkgreen;
+}
+
+.submit{
+    background-color: red;
+    border: solid 2px black;
+    width: 20%;
+    right: 20%;
+    top:50px;
+    position: absolute;
+}
+.submit:hover{
+    background-color: green;
+}
+.sbmt{
+    border: rgb(27, 91, 195) dotted 2px;
+}
+footer{
+    color: rgb(199, 221, 221);
+    justify-content:space-between;
+    
+}
