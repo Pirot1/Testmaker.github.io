@@ -62,7 +62,8 @@
 }
 footer{
     color: rgb(199, 221, 221);
-    justify-content:space-between;  
+    justify-content:space-between;
+    
 }
 @media(max-width:1000px){
     .card{
