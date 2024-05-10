@@ -58,7 +58,7 @@
     background-color: green;
 }
 .sbmt{
-    border: rgb(27, 91, 195) solid 3px;
+    border: rgb(27, 91, 195) dotted 2px;
 }
 footer{
     color: rgb(199, 221, 221);
